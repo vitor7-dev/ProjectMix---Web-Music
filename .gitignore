@@ -5,3 +5,6 @@
 .claude/staged-files.json
 .claude/session-pids.json
 .claude/hooks/log-attribution.sh
+
+videos/
+.claude/
