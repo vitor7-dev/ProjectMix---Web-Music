@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ProjectMix 🎵 | Cadastro</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Fonte -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+    /* =========================
+   CADASTRO MODERNO
+========================= */
+
+.cadastro-body {
+    font-family: 'Poppins', sans-serif;
+
+    background:
+        linear-gradient(rgba(0,0,0,0.85),
+        rgba(0,0,0,0.9)),
+        url("img/fundotop.png");
+
+    background-size: cover;
+    background-position: center;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTAINER */
+
+.cadastro-container {
+    width: 380px;
+
+    padding: 40px;
+
+    border-radius: 25px;
+
+    background: rgba(255,255,255,0.05);
+
+    border: 1px solid rgba(255,255,255,0.1);
+
+    backdrop-filter: blur(15px);
+
+    box-shadow: 0 0 40px rgba(0,0,0,0.4);
+
+    text-align: center;
+
+    animation: fadeIn 0.8s ease;
+}
+
+/* TITULO */
+
+.cadastro-container h2 {
+    color: #00ff88;
+
+    font-size: 32px;
+
+    margin-bottom: 10px;
+}
+
+.sub {
+    color: #cfcfcf;
+
+    font-size: 14px;
+
+    margin-bottom: 25px;
+}
+
+/* INPUTS */
+
+.cadastro-container input {
+    width: 100%;
+
+    padding: 14px;
+
+    margin: 10px 0;
+
+    border-radius: 12px;
+
+    border: 1px solid rgba(255,255,255,0.2);
+
+    background: rgba(0,0,0,0.4);
+
+    color: white;
+
+    outline: none;
+
+    transition: 0.3s;
+}
+
+.cadastro-container input:focus {
+    border-color: #00ff88;
+
+    box-shadow: 0 0 15px rgba(0,255,136,0.3);
+}
+
+/* BOTÃO */
+
+.cadastro-container button {
+    width: 100%;
+
+    padding: 14px;
+
+    margin-top: 15px;
+
+    border: none;
+
+    border-radius: 30px;
+
+    background: #00ff88;
+
+    color: black;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.cadastro-container button:hover {
+    transform: translateY(-3px);
+
+    box-shadow: 0 0 20px #00ff88;
+}
+
+/* LINK LOGIN */
+
+.login-link {
+    margin-top: 20px;
+
+    color: #cfcfcf;
+
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #00ff88;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+/* ANIMAÇÃO */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+</style>
+</head>
+
+<body class="cadastro-body">
+
+<div class="cadastro-container">
+
+    <h2>Criar Conta 🎵</h2>
+
+    <p class="sub">
+        Faça parte da ProjectMix e comece sua jornada musical
+    </p>
+
+    <form>
+
+        <input type="text" placeholder="Nome completo" required>
+
+        <input type="email" placeholder="Email" required>
+
+        <input type="password" placeholder="Senha" required>
+
+        <input type="password" placeholder="Confirmar senha" required>
+
+        <button type="submit">Cadastrar</button>
+
+    </form>
+
+    <p class="login-link">
+        Já tem conta?
+        <a href="index.html">Entrar</a>
+    </p>
+
+</div>
+
+</body>
+
+</html>

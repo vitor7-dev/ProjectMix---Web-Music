@@ -5,121 +5,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projectmix.com🎵</title>
-    <style>
-        body {
-            background-image: url("img/fundotop.png");
-            background-repeat: no repeat;
-            background-size: cover;
-            background-position: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
 
-
-        }
-
-        h1 {
-            text-align: center;
-            color: white;
-        }
-
-        h2 {
-            text-align: center;
-            color: white;
-        }
-
-        .container {
-            display: flex;
-            gap: 10px;
-            /* espaço entre imagens */
-            justify-content: center;
-            text-align: center;
-        }
-
-        .container img {
-            width: 300px;
-            /* largura igual para todas */
-            height: 300px;
-            /* altura igual para todas */
-            object-fit: cover;
-            /* mantém a proporção e corta o excesso */
-            border-radius: 8px;
-            /* opcional: cantos arredondados */
-        }
-
-        .galeria {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            margin-top: 50px;
-        }
-
-        .galeria img {
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 10px;
-        }
-
-        .link-frase {
-            display: inline-block;
-            margin-top: 20px;
-            font-size: 18px;
-            color: #6c5ce7;
-            text-decoration: none;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-
-        .link-frase:hover {
-            color: #4834d4;
-            transform: scale(1.05);
-        }
-    </style>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Serviços</h1>
-    <br><br>
-    <img src="img/produção.gif" alt="">
+    <h1>🎵Cursos🎵</h1>
     <br><br><br>
-    <h2>Cursos </h2>
-    <div class="container">
+    <div class="containercursos">
+        <div class="curso">
+            <img src="img/rockvenda.jpg" alt="ROCK🎵">
+            <a class="link-frase" href="cursorock.html" target="_blank">ROCK</a>
+            <p>Nome do curso: Rock Total
 
-        <div class="galeria">
+                Carga horária: 40 horas
 
-            <div class="item">
-                <img src="img/rockvenda.jpg" alt="ROCK">
-                <a class="link-frase" href="cursorock.html" target="_blank">
-                    ROCK
-                </a>
-            </div>
+                Equipamentos necessários: Guitarra, baixo, bateria, amplificador
 
-            <div class="item">
-                <img src="img/rapvenda.jpg" alt="RAP">
-                <a class="link-frase" href="cursorap.html" target="_blank">
-                    RAP
-                </a>
-            </div>
-
-            <div class="item">
-                <img src="img/mpbvenda.jpg" alt="MPB">
-                <a class="link-frase" href="cursompb.html" target="_blank">
-                    MPB
-                </a>
-            </div>
-
-            <div class="item">
-                <img src="img/eletronicavenda.jpg" alt="ELETRONICA">
-                <a class="link-frase" href="cursoeletronica.html" target="_blank">
-                    ELETRONICA
-                </a>
-            </div>
-
-
-
+                Descrição: Aprenda os riffs clássicos do rock e técnicas de palco. Do power chord ao solo, domine o som
+                que revolucionou gerações.</p>
         </div>
+
+        <div class="curso">
+            <img src="img/rapvenda.jpg" alt="RAP🎵">
+            <a class="link-frase" href="cursorap.html" target="_blank">RAP</a>
+            <p>Nome do curso: Flow e Rimas
+
+                Carga horária: 30 horas
+
+                Equipamentos necessários: Microfone, computador, fones de ouvido
+
+                Descrição: Desenvolva sua escrita, flow e presença de palco. Aprenda técnicas de gravação e produção
+                para criar seu estilo único.</p>
+        </div>
+
+        <div class="curso">
+            <img src="img/mpbvenda.jpg" alt="MPB🎵">
+            <a class="link-frase" href="cursompb.html" target="_blank">MPB</a>
+            <p>Nome do curso: Alma da MPB
+
+                Carga horária: 25 horas
+
+                Equipamentos necessários: Violão, teclado, microfone
+
+                Descrição: Explore a riqueza da Música Popular Brasileira. Aprenda acordes, harmonia e interpretação das
+                clássicas canções de MPB.</p>
+        </div>
+
+        <div class="curso">
+            <img src="img/eletronicavenda.jpg" alt="ELETRONICA🎵">
+            <a class="link-frase" href="cursoeletronica.html" target="_blank">ELETRONICA</a>
+            <p>Nome do curso: Música Eletrônica
+
+                Carga horária: 35 horas
+
+                Equipamentos necessários: Computador, controlador MIDI, software de produção (DAW)
+
+                Descrição: Crie batidas eletrônicas, explore sintetizadores e efeitos. Ideal para produtores que querem
+                entrar no mundo da EDM, house e techno.</p>
+        </div>
+
+    </div>
+
 </body>
 
 </html>

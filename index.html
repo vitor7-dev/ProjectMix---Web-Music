@@ -4,318 +4,176 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projectmix.com🎵</title>
-    <style>
-        body {
-            background-image: url("img/fundotop.png");
-            background-repeat: no repeat;
-            background-size: cover;
-            background-position: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
+    <title>ProjectMix 🎵</title>
 
+    <link rel="stylesheet" href="style.css">
 
-        }
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
-        .logo {
-            text-align: center;
-            font-size: 20px;
-            border-radius: 30px;
-            border-color: aliceblue;
-        }
-
-        .gifs {
-            text-align: center;
-            max-width: 5%;
-            height: auto;
-        }
-
-        h1 {
-            text-align: center;
-            color: red;
-            border-color: black;
-        }
-
-        h2 {
-            color: white;
-            text-align: center;
-            font-size:large
-        }
-
-        h3 {
-            color: white;
-            text-align: center;
-        }
-
-        h4 {
-            text-align: center;
-            color: white;
-        }
-
-
-
-        .rock {
-            border-radius: 8px;
-            display: block;
-            /* transforma em bloco */
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        .p {
-            text-align: center;
-            color: white;
-        }
-
-
-        .softwares {
-            text-align: center;
-            font-size: 215px;
-
-
-        }
-
-        .container {
-            display: flex;
-            gap: 10px;
-            /* espaço entre imagens */
-            justify-content: center;
-            text-align: center;
-        }
-
-        .container img {
-            width: 300px;
-            /* largura igual para todas */
-            height: 300px;
-            /* altura igual para todas */
-            object-fit: cover;
-            /* mantém a proporção e corta o excesso */
-            border-radius: 8px;
-            /* opcional: cantos arredondados */
-        }
-
-        video {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 20px auto;
-            border-radius: 10px;
-        }
-
-        .redessociais {
-            text-align: right;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: black;
-        }
-
-        /* Menu */
-        nav {
-            background-color: black;
-            padding: 10px;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-        }
-
-        nav ul li {
-            margin: 0 15px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: red;
-            padding: 8px 12px;
-            transition: background 0.3s, color 0.3s;
-            border-radius: 4px;
-        }
-
-        nav ul li a:hover {
-            background-color: #00c3ff;
-            color: black;
-        }
-    </style>
+    <!-- Ícones -->
+    <script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="serviços.html">Serviços</a></li>
-            <li><a href="#">Contato</a></li>
-            <li><a href="#">Redes Sociais</a></li>
 
-        </ul>
-    </nav>
+    <!-- MENU -->
+    <header>
+        <nav class="menu">
 
+            <div class="logo">
+                <h2>ProjectMix 🎵</h2>
+            </div>
 
-    <div class="logo">
-        <img src="img/project.png" alt="">
+            <ul class="links">
+                <li><a href="#">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
 
-    </div>
+            <div class="acoes">
+                <a href="#" class="login">Login</a>
+                <a href="cadastro.html" class="cadastro">Cadastro</a>
+            </div>
 
-    <div class="gifs">
-        <img src="img/pessoas.png" alt="">
+        </nav>
+    </header>
 
-    </div>
-    <br>
-    <p>
-        Na nossa Escola de Produção Musical Productormix,
-        seu talento deixa de ser sonho
-        e se transforma em profissão.
-        Aqui, você aprende a criar, produzir
-        e lançar músicas com padrão profissional.
+    <!-- HERO -->
+    <section class="hero">
 
-        Do eletrônico ao trap,
-        do hip-hop ao pop,
-        do rock ao sertanejo,
-        do funk ao R&B,
-        da MPB às trilhas sonoras,
-        você domina os estilos que movimentam o mercado.
+        <div class="hero-text">
 
-        Cada aula é prática, direta e aplicada.
-        Você cria beats do zero,
-        aprende arranjos modernos,
-        desenvolve identidade sonora
-        e entende como produzir hits de verdade.
+            <h1>
+                Transforme seu talento em profissão 🎶
+            </h1>
 
-        Ensinamos teoria musical sem complicação,
-        harmonia aplicada, construção melódica,
-        design de som e técnicas atuais
-        usadas pelos grandes produtores.
+            <p>
+                Aprenda produção musical do zero ao avançado com equipamentos profissionais,
+                mixagem, masterização e criação de beats modernos.
+            </p>
 
-        Na mixagem e masterização,
-        você aprende a dar peso, clareza e impacto.
-        Equalização profissional, compressão, ambiência,
-        finalização pronta para Spotify e plataformas digitais.
+            <div class="botoes">
+                <a href="#" class="btn">Começar Agora</a>
+                <a href="#" class="btn-outline">Saiba Mais</a>
+            </div>
 
-        Nossa estrutura é completa:
-        estúdios equipados,
-        microfones profissionais,
-        controladores MIDI,
-        interfaces de alta qualidade
-        e ambiente preparado para criar sem limites.
+        </div>
 
-        Mas não paramos na técnica.
+        <div class="hero-image">
+            <img src="img/project.png" alt="ProjectMix">
+        </div>
 
-        Oferecemos mentoria,
-        orientação de carreira,
-        acompanhamento de portfólio
-        e direcionamento para o mercado musical.
+    </section>
 
-        Você aprende não apenas a produzir,
-        mas a vender sua arte,
-        construir sua marca
-        e viver de música.
+    <!-- SOBRE -->
+    <section class="sobre">
 
-        Se você quer sair do básico,
-        se destacar e produzir com nível profissional,
-        aqui é o seu lugar.
+        <h2>Por que escolher a ProjectMix?</h2>
 
-        Transforme seu som.
-        Transforme seu futuro.
-        Comece agora.</p>
-    <br>
-    <br>
-    <br>
-    <h2>Aqui Ensinamos muito mais alem do que
-        qualquer outra escola,porque
-        nos da ProjectMix adaptamos conforme a sua necessidade de
-        aprendizado
-    </h2>
-    <br>
-    <div class="rock">
-        <img src="img/testando.jpg" alt="rock">
+        <div class="cards">
 
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+            <div class="card">
+                <i class="fa-solid fa-music"></i>
+                <h3>Produção Musical</h3>
+                <p>
+                    Aprenda criação de beats, arranjos e identidade sonora.
+                </p>
+            </div>
 
-    <h2>Os melhores professores do mercado</h2>
-    <br>
-    <br>
-    <div class="container">
-        <img src="img/pedro.jpg" alt="Pedro">
-        <img src="img/matheus.jpg" alt="Matheus">
-        <img src="img/pablo.jpg" alt="Pablo">
-        <img src="img/eduardo.jpg" alt="Eduardo">
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h3>Utilizamos os softwares mais quentes dentro do cenario musical</h3>
-    <br>
+            <div class="card">
+                <i class="fa-solid fa-sliders"></i>
+                <h3>Mixagem Profissional</h3>
+                <p>
+                    Técnicas modernas usadas pelos maiores produtores do mercado.
+                </p>
+            </div>
 
-    <br>
-    <br>
-    <br>
-    <div class="softwares">
-        <img src="videos/flstudiogif.gif" alt="fl studios">
+            <div class="card">
+                <i class="fa-solid fa-headphones"></i>
+                <h3>Estrutura Completa</h3>
+                <p>
+                    Estúdios equipados com tecnologia profissional.
+                </p>
+            </div>
 
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+        </div>
 
-    <br>
-    <h3>Veja o resultado das produções de um de nossos alunos:</h3>
-    <br>
-    <br>
-    <h4>Rock</h4>
-    <video controls width="640">
-        <source src="videos/aluno.mp4" type="video/mp4">
+    </section>
 
-        Seu navegador não suporta vídeos.
-    </video>
-    <br>
-    <h4>eletronica</h4>
-    <video controls width="640">
-        <source src="videos/eletronica.mp4" type="video/mp4">
-        Seu navegador não suporta vídeos.
-    </video>
-    <br>
-    <h4>hip-hop</h4>
-    <video controls width="640">
-        <source src="videos/pod.mp4" type="video/mp4">
-        Seu navegador não suporta vídeos.
-    </video>
-    <br><br><br>
-    <br><br><br><br>
-    <div class="redes sociais">
-    </div>
-    <br>
+    <!-- PROFESSORES -->
+    <section class="professores">
+
+        <h2>Os melhores professores do mercado</h2>
+
+        <div class="prof-grid">
+
+            <div class="prof-card">
+                <img src="img/pedro.jpg" alt="">
+                <h3>Pedro</h3>
+            </div>
+
+            <div class="prof-card">
+                <img src="img/matheus.jpg" alt="">
+                <h3>Matheus</h3>
+            </div>
+
+            <div class="prof-card">
+                <img src="img/pablo.jpg" alt="">
+                <h3>Pablo</h3>
+            </div>
+
+            <div class="prof-card">
+                <img src="img/eduardo.jpg" alt="">
+                <h3>Eduardo</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SOFTWARE -->
+    <section class="software">
+
+        <h2>Softwares Utilizados</h2>
+
+        <img src="videos/flstudiogif.gif" alt="FL Studio">
+
+    </section>
+
+    <!-- VIDEOS -->
+    <section class="videos">
+
+        <h2>Produções dos nossos alunos 🎧</h2>
+
+        <div class="video-grid">
+
+            <video src="videos/aluno.mp4" controls></video>
+
+            <video src="videos/eletronica.mp4" controls></video>
+
+            <video src="videos/pod.mp4" controls></video>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h3>Siga a ProjectMix</h3>
+
+        <div class="redes">
+
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+
+        </div>
+
+    </footer>
 
 </body>
 
-</html>git ninit
+</html>

@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "C:\\Users\\ROB-007\\Downloads\\ProjectMix\\ProjectMix\\.claude\\hooks\\log-attribution.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
